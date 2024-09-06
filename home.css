@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #2D4250;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    color: white;
+}
+
+.sidebar {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: white;
+    text-decoration: none;
+}
+.logo > img{
+    width: 100%;
+    height: auto;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 30px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar ul li a .icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.sidebar ul li.active a {
+    background-color: #E384FF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.content {
+    padding: 40px;
+    background: linear-gradient(to right bottom, rgb(59, 190, 236), rgb(52, 120, 221));
+
+}
+
+.greeting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E384FF;
+    border-radius: 10px;
+}
+
+.greetings h2 {
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    padding-left: 150px;
+}
+
+.greetings h1 {
+    font-size: 48px;
+    margin-top: -10px;
+    color: #2D4250;
+    text-align: center;
+    padding-left: 150px;
+}
+
+.greeting .image img {
+    width: 180px;
+    height: auto;
+    margin-right: 200px;
+}
+
+.faq {
+    margin-top: 40px;
+}
+
+details {
+    background:  linear-gradient(to bottom left, rgba(255, 255, 255, 0.1), rgba(50, 246, 203, 0.3));
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 24px;
+   
+}
+details > a{
+    color: white;
+}

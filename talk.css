@@ -1,0 +1,31 @@
+.skill-list{
+    display: flex;
+    font-size: 18px;
+}
+.container{
+    background: linear-gradient(to right bottom,#0fb3b7, #86a2d6, #3c5e99,#05810b);
+    color: white;
+}
+.hope-header{
+    text-align: center;
+}
+.hope-content > p{
+    text-align: center;
+}
+.press-to-speak-title{
+    text-align: center;
+}
+#mic{
+    position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: rgb(230, 17, 17);
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+    
+}

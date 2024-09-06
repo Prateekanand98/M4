@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U Matter | Scene</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="scene.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <a class="logo" href="home.html"><img src="logo.svg" alt="Logo"></a>
+            
+            <ul>
+                <li class="active"><a href="home.html"><span class="icon">🏠</span> Home</a></li>
+                <li class="active"><a href="music.html"><span class="icon">🎵</span> Music</a></li>
+                <li class="active"><a href="scene.html"><span class="icon">🏞️</span> Scene</a></li>
+                <li class="active"><a href="relax.html"><span class="icon">💓</span> Relax & Breathe</a></li>
+                <li class="active"><a href="talk.html"><span class="icon">💬</span> Talk To Hope</a></li>
+            </ul>
+        </nav>
+
+        <div class="Scene">
+            <h2>Scene</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="lake-sunset.jpg" alt="">
+                <div class="overlay">
+                    <h3>Lake Sunset<i class="fas fa-play-circle fa-2x play-video-icon" id="play-btn-lake"></i></h3>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <img src="river forest.jpg" alt="">
+                <div class="overlay">
+                    <h3>River Forest<i class="fas fa-play-circle fa-2x play-video-icon" id="play-btn-river"></i></h3>
+                </div>
+            </div>
+            <div class="card">
+                <img src="rain-night.jpg" alt="">
+                <div class="overlay">
+                    <h3>Rain<i class="fas fa-play-circle fa-2x play-video-icon" id="play-btn-rain"></i></h3>
+                </div>
+            </div>
+            <div class="card">
+                <img src="falls.jpg" alt="">
+                <div class="overlay">
+                    <h3>The Waterfall<i class="fas fa-play-circle fa-2x play-video-icon" id="play-btn-waterfall"></i></h3>
+                </div>
+            </div>
+            <div class="card">
+                <img src="snow.jpg" alt="">
+                <div class="overlay">
+                    <h3>Snow<i class="fas fa-play-circle fa-2x play-video-icon" id="play-btn-snow"></i></h3>
+                </div>
+            </div>
+            <div class="card">
+                <img src="ice-lake.jpg" alt="">
+                <div class="overlay">
+                    <h3>Mountain Lake<i class="fas fa-play-circle fa-2x play-video-icon" id="play-btn-mountain"></i></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="music-popup" class="popup-window">
+        <div class="popup-content">
+          <span id="close-popup" class="close-btn">&times;</span>
+          <h2 id="now-playing-title">Now Playing</h2>
+          <audio controls id="music-player">
+            <source id="audio-source" src="" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+
+      <script src="scene.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U Matter</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="option.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <a class="logo" href="home.html"><img src="logo.svg" alt="Logo"></a>
+            
+            <ul>
+                <li class="active"><a href="home.html"><span class="icon">🏠</span> Home</a></li>
+                <li class="active"><a href="music.html"><span class="icon">🎵</span> Music</a></li>
+                <li class="active"><a href="scene.html"><span class="icon">🏞️</span> Scene</a></li>
+                <li class="active"><a href="relax.html"><span class="icon">💓</span> Relax & Breathe</a></li>
+                <li class="active"><a href="talk.html"><span class="icon">💬</span> Talk To Hope</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <div class="greeting">
+                <div class="greetings">
+                <h2>Good morning, [Enter name]</h2>
+                <h1 id="customMessage">You matter.</h1>
+                </div>
+                <div class="image">
+                    <img src="home-image.svg" alt="Gift box">
+                </div>
+            </div>
+            <div class="faq">
+                <details>
+                    <summary>What is U Matter?</summary>
+                    <p><b>U matter</b> is a meditation and relaxation app that designed to take you some moment to relax and breathe. U Matter mission is to help you find your inner peace and improve your mental health</p>
+                </details>
+                <details>
+                    <summary>How can we help you?</summary>
+                    <p><b>U Matter</b> helps you to relax your body and mind with meditation music, nature scenery with sounds, an AI voice asistant to talk to and breathing exercises to help you cope with your stress and anxiety.<b> U Matter</b> can help you to let go of the busy mind, and relax your body.</p><a href="#" id="openPopup">See More ></a>
+                </details>
+            </div>
+        </main>
+    </div>
+    <div class="card-container" id="popupCard">
+        <span id="closePopup" class="close">&times;</span>
+        <div class="card">
+            <img src="music.jpg" alt="Music">
+            <div class="overlay">
+                <a href="music.html">Music</a>
+                <p>Music to help you focus </p>
+                <p>and relax.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="scene.jpg" alt="Scene">
+            <div class="overlay">
+                <a href="scene.html">Scene</a>
+                <p>Nature scenes with sounds to enjoy </p>
+                    <p>  while relaxing.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="breathe.jpg" alt="Breathing exercises">
+            <div class="overlay">
+                <a href="relax.html">Breathing exercises</a>
+                <p>Guides you through the breathing </p>
+                <p>exercise.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="ai.jpg" alt="Talk to hope">
+            <div class="overlay">
+                <a href="talk.html">Talk to hope</a>
+                <p>A voice assistant that is always </p>
+                <p>here to talk and to listen.</p>
+            </div>
+        </div>
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>
